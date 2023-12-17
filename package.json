@@ -1,0 +1,25 @@
+{
+  "name": "twoway-vue3",
+  "version": "0.0.1",
+  "description": "The simple package for the two way binding of properties for the Vue3",
+  "main": "dist/index.js",
+  "repository": "https://github.com/bgrusnak/twoway-vue3",
+  "author": "Ilya A. Shlyakhovoy",
+  "license": "MIT",
+  "private": false,
+  "keywords": ["vue", "vue3", "two-way", "twoway", "two way", "props", "properties", "parameters", "prop", "property", "ts", "typescript"],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.56.0",
+    "tslint": "^6.1.3",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vue": "^3.2.36"
+  }
+}
